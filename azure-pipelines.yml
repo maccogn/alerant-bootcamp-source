@@ -16,6 +16,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      buildah bud --tls-verify=0 --format=docker -t alerantdevopsbootcamp.azurecr.io/bootcamp/demoapp_studentN -f
+      buildah bud --tls-verify=0 --format=docker -t alerantdevopsbootcamp.azurecr.io/bootcamp/demoapp_student16 -f
       buildah login --tls-verify=0 -u alerantdevopsbootcamp -p VQq7EvmIbRzlT9N6Z/HA4xND8=dQYyYg alerantdevopsboot
-      buildah push alerantdevopsbootcamp.azurecr.io/bootcamp/student15
+      buildah push alerantdevopsbootcamp.azurecr.io/bootcamp/student16
